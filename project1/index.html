@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        font-family: "Courier New", Courier, monospace;
+      }
+      #box1{
+        display:flex ;
+        background-color: #2c3e50;
+        justify-content: space-around;
+        align-items: center;
+       color: #ffffff;
+       width: 100%;
+      position: fixed;
+       top: 0%
+       ;
+      }
+    .header{
+      font-size: 1.25rem;
+    }
+      
+     .nav {
+        display: flex;
+        list-style: none;
+     }
+     ul li a:hover{
+      
+      color: #1abc9c;
+     }
+      .nav li a {
+        padding-left: 20px;
+        list-style: none;
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 1.25rem;
+      }
+    
+      .avtar {
+        background-color: #1abc9c;
+        text-align: center;
+        color: #ffffff;
+        padding: 13%;
+      }
+      .avtar h1{
+        font-size: 2.75rem;
+      }
+      .avtar p{
+        font-size: 1.25rem;
+      }
+      .avtar img{
+        width:400px;
+        height:300px;
+      }
+     
+      #box2 {
+        justify-content: center;
+        text-align: center;
+        color: #2c3e50;
+        font-size: larger;
+        margin: 0 auto;
+        max-width: 1300px;
+        width: 100%;
+      }
+      .portfolio{
+        font-size: 1.75rem;
+      }
+
+     
+      .png{
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .png img{
+       width: 400px;
+       height: 300px;
+       flex: 0 0 31.23%;
+       padding: 7px;
+       display: block;
+      }
+           
+
+      #box3 {
+        text-align: center;
+        background-color: #1abc9c;
+        color: #ffffff;
+        font-size: larger;
+        padding: 40px;
+      
+        
+       
+      }
+      .about{
+        font-size: 2rem;
+      }
+      .para{
+        display: flex;
+        justify-content: space-between;
+        padding: 70px;
+      }
+      .para1{
+        float: left;
+        width: 45%;
+      
+      }
+      .para2{
+        float: left;
+    width: 45%;
+       
+      }
+     .dwnld button{
+      color: #ffffff;
+      background-color: #1abc9c;
+      font-size: 1.25rem;
+      border-radius: 5px;
+      border: 1px solid white;
+     }
+     .dwnld button:hover{
+      color: #1a252f;
+      background-color: #ffffff;
+     }
+      #box4{
+        text-align: center;
+       color: #2c3e50;
+       
+      }
+      .formm input{
+    
+    font-size: 2rem;
+    width: 70%;
+    border-top: 0ch;
+    border-left: 0ch;
+    border-right: 0ch;
+    padding: 2%;
+      }
+      .formm textarea{
+        font-size: 2rem;
+        width: 70%;
+        border-top: 0ch;
+    border-left: 0ch;
+    border-right: 0ch;
+    padding: 2%;
+    border-color: rgb(118, 118, 118),;
+      }
+      .formm button{
+        font-size: 2rem;
+        background-color: #1abc9c;
+       
+        color: white;
+        margin:10px 1000px 0px 0px;
+      }
+     
+      #box5 {
+        display: flex;
+        column-gap: 20%;
+        padding: 10%;
+        background-color: rgb(44, 62, 80);
+        color: #ffffff;
+        
+      }
+  
+      footer {
+        background-color: #1a252f;
+        font-size: 100%;
+        text-align: center;
+        color: #ffffff;
+        padding-bottom: 2%;
+        padding-top: 2%;
+      }
+      button:hover {
+        background-color: #1abc9c;
+      }
+     
+    
+    </style>
+    <title>project</title>
+  </head>
+  <body>
+    <div class="container" id="box1">
+      <div class="header">
+        <h1>START BOOTSTRAP</h1></div>
+        <ul class="nav">
+          <li><a href="#"> PORTFOLIO</a></li>
+          <li><a href="#"> ABOUT</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul> 
+        
+      </div>
+      <div class="avtar">
+        <img src="avtar.svg" alt="avtar"  >
+        <h1>START BOOTSTRAP</h1>
+        <p>Graphics Artist-Web Designer-IIIustrator</p>
+     
+    </div>
+    <!--portfolio-->
+    <div class="container" id="box2">
+      <div class="portfolio">
+        <h1>PORTFOLIO</h1></div>
+       <div class="png">
+         <img src="1st.png" alt="1st" >
+        <img src="2nd.png" alt="2nd"  >
+        <img src="3rd.png" alt="3rd"  >
+        <img src="4th.png" alt="4th"  >
+        <img src="5th.png" alt="5th"  >
+        <img src="6th.png" alt="6th"  >
+      </div>
+    </div>
+    <!--about-->
+    <div class="container" id="box3">
+      
+        
+          <div class="about">ABOUT</div>
+       
+       <div class="para"> <div class="para1"> Freelancer is a free bootstrap theme created by Start Bootstrap. The
+          download includes the complete source files including HTML, CSS, and
+          JavaScript as well as optional SASS stylesheets for easy
+          customization.</div>   
+        
+          <div class="para2"> You can create your own custom avatar for the masthead, change the
+            icon in the dividers, and add your email address to the contact form
+            to make it fully functional!</div> </div>
+         
+      <div class="dwnld">
+        <button>Free Download</button>
+      </div>
+    </div>
+
+    <!--form-->
+    <div class="container" id="box4">
+    <form>
+   
+      <h1>CONTACT ME</h1>
+     <div class="formm">
+    
+      <input type="text" placeholder="Full Name" ><br>
+      
+      <input type="email" placeholder="Email Address"><br>
+      
+      <input type="number" placeholder="PhoneNumber" /><br />
+     
+     <textarea name="message" placeholder="Message" cols="10" rows="1"></textarea><br>
+      <button type="submit">Send</button></div>
+    </div> </form>
+
+    <!--container5-->
+
+    <div class="container" id="box5">
+     <div class="location">
+        <h2>LOCATION</h2>
+        <p>2215 john Daniel Drive Clark,MO65243</p></div>
+     
+       <div class="around"> <h1>AROUND THE WEB</h1></div>
+     
+       <div> <h2>ABOUT FREELANCER</h2>
+        <p>
+          Freelance is a free to use, MIT licensed Bootstrap theme created by
+          Start Bootstrap 
+        </p></div>
+    
+    </div>
+    <footer>Copyright © Your Website 2022</footer>
+   
+    </div>
+  </body>
+</html>
