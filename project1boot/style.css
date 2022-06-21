@@ -1,1 +1,9 @@
-   
+.about button:hover{
+    background-color: green;
+    color: white;
+       }
+       .form  button:hover{
+        background-color: green;
+        color: white;
+           }
+       
