@@ -1,0 +1,27 @@
+body{
+
+}
+.container{
+    text-align: center;background-color: aqua;
+}
+.table{
+    display: flex;
+    justify-content:center ;
+
+}
+button{
+    
+        width: 40px;
+        margin-bottom: 7px;
+        padding: 6px;
+    }
+#input{
+    margin-bottom: 10px;
+}
+button:hover{
+    background-color: aqua;
+    color: white;
+}
+#equals{
+    background-color: yellow;
+}
