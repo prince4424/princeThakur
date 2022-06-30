@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation Form</title>
+
+</head>
+<body>
+    <div class="container">
+        <h1>Regestration form</h1>
+    <form onsubmit="return tsubmit()">
+         
+        <p> First Name  <input type="text" id="fname"></p>
+        <span id="alert">**required Field**</span>
+
+        <p>Last Name <input type="text" id="lName" ></p>
+        <span id="alert1" >**required Field**</span>
+        <p>Email   <input type="email" id="email"></p> 
+        <span id="alert2">**Enter your Email**</span>
+        <p>Mobile Number<input type="number" id="mobileNumber"></p>
+        <span id="alert3">**Enter your mobile number**</span><br>
+        <input type="submit" value="submit">
+    </form>
+ 
+
+    </div>
+    
+<script src="script.js"></script>
+</body>
+</html>
+
+
