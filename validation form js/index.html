@@ -1,35 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Validation Form</title>
-
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
     <div class="container">
-        <h1>Regestration form</h1>
-    <form onsubmit="return tsubmit()">
-         
-        <p> First Name  <input type="text" id="fname"></p>
-        <span id="alert">**required Field**</span>
+      <div class="col-md-12">
+        <table>
+          <tr>
+            <th>First Name</th>
+            <th>last Name</th>
+            <th>Email</th>
+            <th>mobileNumber</th>
+          </tr>
+        </table>
 
-        <p>Last Name <input type="text" id="lName" ></p>
-        <span id="alert1" >**required Field**</span>
-        <p>Email   <input type="email" id="email"></p> 
-        <span id="alert2">**Enter your Email**</span>
-        <p>Mobile Number<input type="number" id="mobileNumber"></p>
-        <span id="alert3">**Enter your mobile number**</span><br>
-        <input type="submit" value="submit">
-    </form>
- 
+        <table id="table">
+          
+        </table>
+      </div>
 
+      <form onsubmit="return tsubmit()">
+        <div class="row">
+          <div class="col-md-8">
+            <h4>First Name <input class="input" type="text" id="fname" /></h4>
+            <span id="alert">**required Field**</span>
+
+            <h4>Last Name <input class="input" type="text" id="lname" /></h4>
+            <span id="alert1">**required Field**</span>
+            <h4>Email <input class="input" type="email" id="email" /></h4>
+            <span id="alert2">**Enter your Email**</span>
+            <h4>
+              Mobile Number<input class="input" type="text" id="number" />
+            </h4>
+            <span id="alert3">**Enter your mobile number**</span><br />
+            <input id="submit1" class="input" type="submit" value="submit" />
+          </div>
+        </div>
+      </form>
     </div>
-    
-<script src="script.js"></script>
-</body>
+
+    <script src="script.js"></script>
+  </body>
 </html>
-
-
