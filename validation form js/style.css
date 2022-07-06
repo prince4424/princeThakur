@@ -1,34 +1,36 @@
-body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-.container{
-    text-align: center;
-    border: 2px solid black;
-    background-color: coral;
+.container {
+  text-align: center;
+  border: 2px solid black;
 }
-span{
-    color: red;
-    display:none;
+span {
+  color: red;
+  display: none;
 }
-#table{
- 
-width: 100% !important;
-    background: #f9f9f9;
-    border: 0;
-justify-items: center;}
-
-th{
-    border: 0;
-    text-align: center !important  ;
-    padding: 10px !important;
-    width: 25%!important;
+#table {
+  width: 100% !important;
+  background: #f9f9f9;
+  border: 0;
 }
 
+th {
+  border: 0;
+  text-align: center !important  ;
+  padding: 10px !important;
+  width: 25% !important;
+  background-color: darkseagreen;
+}
 
-
-.input{
-    width: 59%;
-        border-top: 0;
-        border-left: 0;
-        border-right: 0;
-    }
+.input {
+  width: 59%;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  margin-bottom: 4%;
+  background-color: lavenderblush;
+}
+.row {
+  text-align: left;
+}

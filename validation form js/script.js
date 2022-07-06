@@ -29,26 +29,28 @@ function tsubmit(){
             let th2 = row.insertCell(1);
             let th3 = row.insertCell(2);
             let th4 = row.insertCell(3);
-           
+           let th5 = row.insertCell(4);
+
              th1.innerHTML = info[i].fname;
              th2.innerHTML = info[i].lname;
              th3.innerHTML = info[i].email;
              th4.innerHTML = info[i].number;
-        
+             th5.innerHTML =`<button onclick ="edit('${th1.innerHTML}', '${th2.innerHTML}', '${th3.innerHTML}','${th4.innerHTML}')">Edit</button>`;
              
         }
+    
+    }  else{
+        alert("field is empty")
+    
     }
-    else
-    {
-        alert('filled must be required');
-    }
+       document.getElementById("fname").value = "";
+    document.getElementById("lname").value =" ";
+     document.getElementById("email").value = "";
+     document.getElementById("number").value ="";
+ 
     return false;
 
-    document.getElementById("fname").value = '';
-    document.getElementById("lname").value = '';
-    document.getElementById("email").value = '';
-    document.getElementsById("number").value = '';
-
+    
     
    
 }
@@ -100,5 +102,12 @@ function validation(){
     // document.createElement('table')
     
 
+}
+function edit(a, b, c, d){
+    document.getElementById("fname").value= a;
+        document.getElementById("lname").value=b;
+    document.getElementById("email").value=c;
+document.getElementById("number").value=d;
+    
 }
 
