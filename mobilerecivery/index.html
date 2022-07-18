@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOBILE RECOVERY</title>
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="display-4 text-center">
+          <i class="fas fa-book-open text-secondary"></i> Mobile<span class="text-secondary"> Recovery</span></h1>
+          <form id="book-form">
+            <div class="form-group">
+              <label for="mobileBrand">Mobile Brand</label>
+              <input type="text" id="mobileBrand" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="Model">Model</label>
+              <input type="text" id="Model" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="IMEI">IMEI#</label>
+              <input type="IMEI" id="IMEI" class="form-control">
+            </div>
+            <input type="submit" value="FIND MY MOBILE" class="btn btn-primary btn-block">
+          </form>
+          <table class="table table-striped mt-5">
+            <thead>
+              <tr>
+                <th>Mobile Brand </th>
+                <th>Model</th>
+                <th>IMEI#</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody id="book-list"></tbody>
+          </table>
+      </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
