@@ -1,0 +1,196 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.left{
+         margin-left: 0px !important;
+}
+
+#header{
+    background: url(./images/hero-bg.jpg)no-repeat center/cover ;
+     height: 50%; 
+    margin-top: 46px
+
+}
+.navi{
+    height: 100px;
+}
+.left{
+    height: 80px;
+    margin-left: 60px;
+}
+.left img {
+    height: 100%
+}
+
+ .navi ul{
+    margin-left: 135px;
+    
+ }   
+
+.navi ul li {
+    display: inline-block;    
+    width: 160px;
+
+
+}
+.row.bg-dark.text-white {
+    text-align: center;
+}
+
+
+.imghome1 img{
+    width: 100%;
+    height: 346px;
+}
+.content{
+    padding: 82px
+}
+@media only screen and (max-width:600px){
+    .navi ul{
+        margin-left: 0% ;
+
+    }
+    .h1, .p, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+        text-align: center;
+
+    }
+.text-primary{
+    text-align: center;
+}}
+
+button{
+    width: 100%;
+}
+.b1{
+    width: 75px
+    
+}
+button.btn.btn-info.b1 {
+    margin-left: 10px;
+}
+.group1{
+    width: 125%;
+    margin-left: 7px;
+}
+@media only screen and (max-width:600px){
+    .group1{
+        /* width: 0% auto  ; */
+        margin-left: 0% ;
+    }
+    p.solid1.bg-info.text-white {
+        width: auto;
+        text-align: center;
+    }
+    .v{
+        margin-top: 27px;
+    }
+   
+   
+}
+.aw{
+    color: black;
+}
+.imghome {
+    margin-left: 96px;
+}
+.homee{
+    height: 302px;
+    width: 370px;
+}
+#form{
+    background: url(./images/request-bg.jpg) no-repeat center/cover;
+    height: 50%;
+}
+
+.contact-form input[type=text],
+.contact-form input[type=email],
+.contact-form input[type=number]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline:none;
+    height: 0;
+    width: 80%;
+    color: #fff;
+    font-size: 15px;
+    background: transparent;
+}
+input.bg-info.text-white.butsend {
+    width: 134px;
+    font-weight: bold;
+    border: none;
+    height: 48px;
+    font-size: 15px;}
+   
+
+    
+  
+  .bio{
+    font-size: 14px;
+  }
+ 
+      
+  
+ .page{
+   
+    font-weight: bold;
+
+
+ }
+ 
+ p.solid {border-style: solid ;
+    border-color: #fff;
+    width: 175px;
+    padding: 11px;
+}
+.PAGE1{
+    background: url(./images/sell-bg.jpg) no-repeat center/cover;
+    
+    padding: 100px;
+}
+.PAGE2{
+    background: url(./images/home-value-bg.jpg) no-repeat center/cover;
+    
+    padding: 100px;
+}
+/* .BOLD{
+    font-weight: bold;
+} */
+.solid1{
+    border-style: solid;
+    border-color: #fff;
+    width: 176px;
+    padding: 13px;
+    height: 54px;
+    font-size: 12px;
+
+}
+.lorem{
+    font-size: 13px;
+}
+.sectionend{
+    background-color: rgb(194, 229, 217);
+    height: 70%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.ribbonn{
+    color: cadetblue;
+    font-size: 64px;
+}
+.s{
+  color: rgb(255, 255, 0);  
+  font-size: 18px;
+}
+.o{
+    font-size: 30px;
+}
+.a{
+    font-size: 12px;
+}
+.row{
+    margin: 0 auto !important;
+    padding-top: 45px;
+}
